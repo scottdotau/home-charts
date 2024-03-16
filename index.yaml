@@ -106,6 +106,26 @@ entries:
     version: 0.0.0
   pihole:
   - apiVersion: v3
+    appVersion: 0.0.4
+    created: "2024-03-16T02:29:06.667505334Z"
+    dependencies:
+    - import-values:
+      - defaults
+      name: helmet
+      repository: https://companyinfo.github.io/helm-charts
+      version: 0.6.5
+    description: PiHole
+    digest: 26f12ca86a08bc6d2e3ec942060ff65c8e1e73c1b83f09cb5597c28c38729550
+    maintainers:
+    - email: scawtee@protonmail.com
+      name: scottdot
+    name: pihole
+    sources:
+    - https://github.com/scottdotau/home-charts
+    urls:
+    - https://github.com/scottdotau/home-charts/releases/download/pihole-0.0.4/pihole-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v3
     appVersion: 0.0.3
     created: "2024-03-16T02:19:14.382374302Z"
     dependencies:
@@ -145,4 +165,4 @@ entries:
     urls:
     - https://github.com/scottdotau/home-charts/releases/download/pihole-0.0.0/pihole-0.0.0.tgz
     version: 0.0.0
-generated: "2024-03-16T02:24:57.261264229Z"
+generated: "2024-03-16T02:29:06.66754043Z"
