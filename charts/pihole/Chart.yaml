@@ -1,0 +1,16 @@
+apiVersion: v3
+description: PiHole
+name: pihole
+appVersion: 0.0.0
+version: 0.0.0
+sources:
+  - 'https://github.com/scottdotau/home-charts'
+maintainers:
+  - name: scottdot
+    email: scawtee@protonmail.com
+dependencies:
+  - name: helmet
+    version: 0.6.5
+    repository: 'https://companyinfo.github.io/helm-charts'
+    import-values:
+      - defaults

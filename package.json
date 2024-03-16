@@ -1,0 +1,15 @@
+{
+  "name": "home-charts",
+  "packageManager": "yarn@4.1.1",
+  "version": "0.0.0",
+  "workspaces": [
+    "charts/*"
+  ],
+  "scripts": {
+    "postinstall": "git config core.hooksPath hooks"
+  },
+  "devDependencies": {
+    "helm-version-js": "^1.0.0",
+    "opencommit": "^3.0.11"
+  }
+}

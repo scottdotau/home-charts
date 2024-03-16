@@ -1,0 +1,17 @@
+apiVersion: v3
+description: Invoice Ninja
+name: invoiceninja
+version: 0.0.0
+sources:
+  - 'https://github.com/scottdotau/home-charts'
+  - 'https://github.com/invoiceninja/invoiceninja'
+maintainers:
+  - name: scottdot
+    email: scawtee@protonmail.com
+dependencies:
+  - name: helmet
+    version: 0.6.5
+    repository: 'https://companyinfo.github.io/helm-charts'
+    import-values:
+      - defaults
+appVersion: 0.0.0
