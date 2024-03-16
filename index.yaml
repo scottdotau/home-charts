@@ -83,6 +83,27 @@ entries:
     version: 0.0.0
   invoiceninja:
   - apiVersion: v3
+    appVersion: 0.0.5
+    created: "2024-03-16T04:39:12.058940201Z"
+    dependencies:
+    - import-values:
+      - defaults
+      name: helmet
+      repository: https://companyinfo.github.io/helm-charts
+      version: 0.6.5
+    description: Invoice Ninja
+    digest: 275c6b433b8e178dc0ed4fcf771a97ab8e46020308e6a4672f6ac74cd466608d
+    maintainers:
+    - email: scawtee@protonmail.com
+      name: scottdot
+    name: invoiceninja
+    sources:
+    - https://github.com/scottdotau/home-charts
+    - https://github.com/invoiceninja/invoiceninja
+    urls:
+    - https://github.com/scottdotau/home-charts/releases/download/invoiceninja-0.0.5/invoiceninja-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v3
     appVersion: 0.0.4
     created: "2024-03-16T02:42:11.026498429Z"
     dependencies:
@@ -146,6 +167,26 @@ entries:
     - https://github.com/scottdotau/home-charts/releases/download/invoiceninja-0.0.0/invoiceninja-0.0.0.tgz
     version: 0.0.0
   pihole:
+  - apiVersion: v3
+    appVersion: 0.0.6
+    created: "2024-03-16T04:39:12.219227128Z"
+    dependencies:
+    - import-values:
+      - defaults
+      name: helmet
+      repository: https://companyinfo.github.io/helm-charts
+      version: 0.6.5
+    description: PiHole
+    digest: 60b68e803a61a455cee00ccb1dcfc96a242436ec506605c9b30aafbbdd9aef48
+    maintainers:
+    - email: scawtee@protonmail.com
+      name: scottdot
+    name: pihole
+    sources:
+    - https://github.com/scottdotau/home-charts
+    urls:
+    - https://github.com/scottdotau/home-charts/releases/download/pihole-0.0.6/pihole-0.0.6.tgz
+    version: 0.0.6
   - apiVersion: v3
     appVersion: 0.0.5
     created: "2024-03-16T02:42:11.130829384Z"
@@ -226,4 +267,4 @@ entries:
     urls:
     - https://github.com/scottdotau/home-charts/releases/download/pihole-0.0.0/pihole-0.0.0.tgz
     version: 0.0.0
-generated: "2024-03-16T02:42:11.130853609Z"
+generated: "2024-03-16T04:39:12.219265009Z"
