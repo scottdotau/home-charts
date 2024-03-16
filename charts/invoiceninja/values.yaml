@@ -1,7 +1,8 @@
 # Invoice Ninja
 image:
   registry: docker.io
-  repository: invoiceninja/invoiceninja:5
+  repository: invoiceninja/invoiceninja
+  tag: 5
   imagePullPolicy: IfNotPresent
 ports:
   - name: http

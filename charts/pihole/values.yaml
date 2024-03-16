@@ -1,7 +1,7 @@
 # PiHole
 image:
-  registry: ghcr.io
-  repository: home-assistant/home-assistant
+  registry: docker.io
+  repository: pihole/pihole
   imagePullPolicy: IfNotPresent
 ports:
   - name: http
