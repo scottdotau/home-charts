@@ -1,7 +1,1 @@
-#! /usr/bin/env bash
-
-yarn workspaces foreach --since --exclude=home-charts exec yarn version patch
-yarn workspaces foreach --since --exclude=home-charts run helm-version
-yarn workspaces foreach --since --exclude=home-charts exec git add package.json Chart.yaml
-
-yarn oco --no-verify < /dev/tty
+/home/scott/home-charts/node_modules/opencommit/out/cli.cjs
