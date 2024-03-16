@@ -1,7 +1,7 @@
 apiVersion: v3
 description: Invoice Ninja
 name: invoiceninja
-version: 0.0.3
+version: 0.0.4
 sources:
   - 'https://github.com/scottdotau/home-charts'
   - 'https://github.com/invoiceninja/invoiceninja'
@@ -14,4 +14,4 @@ dependencies:
     repository: 'https://companyinfo.github.io/helm-charts'
     import-values:
       - defaults
-appVersion: 0.0.3
+appVersion: 0.0.4
