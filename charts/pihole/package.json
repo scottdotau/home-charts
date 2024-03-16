@@ -1,0 +1,8 @@
+{
+  "name": "pihole",
+  "packageManager": "yarn@4.1.1",
+  "version": "0.0.0",
+  "devDependencies": {
+    "helm-version-js": "^1.0.0"
+  }
+}
