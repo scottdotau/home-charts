@@ -2,6 +2,26 @@ apiVersion: v1
 entries:
   homeassistant:
   - apiVersion: v3
+    appVersion: 0.0.4
+    created: "2024-03-16T02:24:57.261241607Z"
+    dependencies:
+    - import-values:
+      - defaults
+      name: helmet
+      repository: https://companyinfo.github.io/helm-charts
+      version: 0.6.5
+    description: Home Assistant
+    digest: 424f37ffcc9ff9feeaea99fa32ee93c6c3816d9b796f6212f727b39aef3e3201
+    maintainers:
+    - email: scawtee@protonmail.com
+      name: scottdot
+    name: homeassistant
+    sources:
+    - https://github.com/scottdotau/home-charts
+    urls:
+    - https://github.com/scottdotau/home-charts/releases/download/homeassistant-0.0.4/homeassistant-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v3
     appVersion: 0.0.3
     created: "2024-03-16T02:19:14.175954983Z"
     dependencies:
@@ -125,4 +145,4 @@ entries:
     urls:
     - https://github.com/scottdotau/home-charts/releases/download/pihole-0.0.0/pihole-0.0.0.tgz
     version: 0.0.0
-generated: "2024-03-16T02:19:14.38239479Z"
+generated: "2024-03-16T02:24:57.261264229Z"
