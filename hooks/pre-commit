@@ -1,4 +1,4 @@
 #! /usr/bin/env bash
-yarn workspaces foreach --since=main --exclude=home-charts run version patch
+yarn workspaces foreach --since=main --exclude=home-charts exec yarn version patch
 yarn workspaces foreach --since=main --exclude=home-charts exec helm-version . $npm_package_version
 yarn workspaces foreach --since=main --exclude=home-charts exec git add Chart.yaml
