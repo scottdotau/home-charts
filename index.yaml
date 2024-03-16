@@ -1,0 +1,67 @@
+apiVersion: v1
+entries:
+  homeassistant:
+  - apiVersion: v3
+    appVersion: 0.0.0
+    created: "2024-03-16T02:09:22.138058647Z"
+    dependencies:
+    - import-values:
+      - defaults
+      name: helmet
+      repository: https://companyinfo.github.io/helm-charts
+      version: 0.6.5
+    description: Home Assistant
+    digest: 2bbfb44a103ea966341f52faba1eb5221e191a369f266e7020811114e90ef5d1
+    maintainers:
+    - email: scawtee@protonmail.com
+      name: scottdot
+    name: homeassistant
+    sources:
+    - https://github.com/scottdotau/home-charts
+    urls:
+    - https://github.com/scottdotau/home-charts/releases/download/homeassistant-0.0.0/homeassistant-0.0.0.tgz
+    version: 0.0.0
+  invoiceninja:
+  - apiVersion: v3
+    appVersion: 0.0.0
+    created: "2024-03-16T02:09:22.268389875Z"
+    dependencies:
+    - import-values:
+      - defaults
+      name: helmet
+      repository: https://companyinfo.github.io/helm-charts
+      version: 0.6.5
+    description: Invoice Ninja
+    digest: 6685d7511ca79ef6cf7b0458b7516b96517811dd3fbf15733f559dec95985554
+    maintainers:
+    - email: scawtee@protonmail.com
+      name: scottdot
+    name: invoiceninja
+    sources:
+    - https://github.com/scottdotau/home-charts
+    - https://github.com/invoiceninja/invoiceninja
+    urls:
+    - https://github.com/scottdotau/home-charts/releases/download/invoiceninja-0.0.0/invoiceninja-0.0.0.tgz
+    version: 0.0.0
+  pihole:
+  - apiVersion: v3
+    appVersion: 0.0.0
+    created: "2024-03-16T02:09:22.397760656Z"
+    dependencies:
+    - import-values:
+      - defaults
+      name: helmet
+      repository: https://companyinfo.github.io/helm-charts
+      version: 0.6.5
+    description: PiHole
+    digest: 5351565ea0b343967cea39f84965de06758fa498c2756d431e98faee35083c25
+    maintainers:
+    - email: scawtee@protonmail.com
+      name: scottdot
+    name: pihole
+    sources:
+    - https://github.com/scottdotau/home-charts
+    urls:
+    - https://github.com/scottdotau/home-charts/releases/download/pihole-0.0.0/pihole-0.0.0.tgz
+    version: 0.0.0
+generated: "2024-03-16T02:09:22.397770775Z"
