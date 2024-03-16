@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
+
 yarn workspaces foreach --since --exclude=home-charts exec yarn version patch
 yarn workspaces foreach --since --exclude=home-charts exec yarn helm-version . $npm_package_version
 yarn workspaces foreach --since --exclude=home-charts exec git add package.json Chart.yaml
 
-yarn oco < /dev/tty
+yarn oco --no-verify < /dev/tty

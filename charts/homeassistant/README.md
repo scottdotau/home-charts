@@ -1,6 +1,6 @@
 # <br/>
 <p align="center">
-  <h3 align="center">Home Chart</h3>
+  <h3 align="center">Home Charts</h3>
 
   <p align="center">
     Home Assistant

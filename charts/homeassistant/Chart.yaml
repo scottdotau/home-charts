@@ -1,7 +1,7 @@
 apiVersion: v3
 description: Home Assistant
 name: homeassistant
-version: 0.0.3
+version: 0.0.4
 sources:
   - 'https://github.com/scottdotau/home-charts'
 maintainers:
@@ -13,4 +13,4 @@ dependencies:
     repository: 'https://companyinfo.github.io/helm-charts'
     import-values:
       - defaults
-appVersion: 0.0.3
+appVersion: 0.0.4
