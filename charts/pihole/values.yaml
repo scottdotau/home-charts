@@ -1,3 +1,4 @@
+# PiHole
 image:
   registry: ghcr.io
   repository: home-assistant/home-assistant
