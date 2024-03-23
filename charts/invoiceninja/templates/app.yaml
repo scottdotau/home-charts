@@ -1,2 +1,2 @@
-# lol
+# Helmet - Invoice Ninja
 {{ include "helmet.app" . }}

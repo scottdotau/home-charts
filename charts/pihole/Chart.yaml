@@ -1,14 +1,16 @@
 apiVersion: v3
 description: PiHole
 name: pihole
-appVersion: 0.0.7
-version: 0.0.7
+appVersion: 0.0.8
+version: 0.0.8
 sources:
   - 'https://github.com/scottdotau/home-charts'
 maintainers:
   - name: scottdot
     email: scawtee@protonmail.com
 dependencies:
-  - name: hull
-    version: 1.29.7
-    repository: 'https://vidispine.github.io/hull'
+  - name: helmet
+    version: 0.11.0
+    repository: 'https://charts.companyinfo.dev'
+    import-values:
+      - defaults

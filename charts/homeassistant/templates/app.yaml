@@ -1,2 +1,2 @@
-# lol
+# Helmet - HomeAssistant
 {{ include "helmet.app" . }}

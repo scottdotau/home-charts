@@ -1,2 +1,2 @@
-# lol
+# Helmet - PiHole
 {{ include "helmet.app" . }}
