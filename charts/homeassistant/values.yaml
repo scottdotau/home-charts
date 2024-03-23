@@ -2,8 +2,11 @@
 image:
   registry: ghcr.io
   repository: home-assistant/home-assistant
-  imagePullPolicy: IfNotPresent
 ports:
   - name: http
     containerPort: 8120
     protocol: TCP
+extraVolumes:
+  - name: config
+    persistentVolumeClaim:
+      claimName: homeassistant-pvc
