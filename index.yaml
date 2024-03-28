@@ -2,6 +2,26 @@ apiVersion: v1
 entries:
   homeassistant:
   - apiVersion: v3
+    appVersion: 0.0.9
+    created: "2024-03-28T10:41:13.766785926Z"
+    dependencies:
+    - import-values:
+      - defaults
+      name: helmet
+      repository: https://charts.companyinfo.dev
+      version: 0.11.0
+    description: Home Assistant
+    digest: f013f7815f0ea8c0f6abe28d3ed33544cedc8ebec20c24c27883acbcfbf9369b
+    maintainers:
+    - email: scawtee@protonmail.com
+      name: scottdot
+    name: homeassistant
+    sources:
+    - https://github.com/scottdotau/home-charts
+    urls:
+    - https://github.com/scottdotau/home-charts/releases/download/homeassistant-0.0.9/homeassistant-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v3
     appVersion: 0.0.5
     created: "2024-03-16T02:42:10.922106367Z"
     dependencies:
@@ -82,6 +102,27 @@ entries:
     - https://github.com/scottdotau/home-charts/releases/download/homeassistant-0.0.0/homeassistant-0.0.0.tgz
     version: 0.0.0
   invoiceninja:
+  - apiVersion: v3
+    appVersion: 0.0.7
+    created: "2024-03-28T10:41:13.857099853Z"
+    dependencies:
+    - import-values:
+      - defaults
+      name: helmet
+      repository: https://charts.companyinfo.dev
+      version: 0.11.0
+    description: Invoice Ninja
+    digest: 6187ae19ed094955925fe36bf98dfefbfc1e4764a2be20ad0b0e97450dabb990
+    maintainers:
+    - email: scawtee@protonmail.com
+      name: scottdot
+    name: invoiceninja
+    sources:
+    - https://github.com/scottdotau/home-charts
+    - https://github.com/invoiceninja/invoiceninja
+    urls:
+    - https://github.com/scottdotau/home-charts/releases/download/invoiceninja-0.0.7/invoiceninja-0.0.7.tgz
+    version: 0.0.7
   - apiVersion: v3
     appVersion: 0.0.5
     created: "2024-03-16T04:39:12.058940201Z"
@@ -167,6 +208,26 @@ entries:
     - https://github.com/scottdotau/home-charts/releases/download/invoiceninja-0.0.0/invoiceninja-0.0.0.tgz
     version: 0.0.0
   pihole:
+  - apiVersion: v3
+    appVersion: 0.0.8
+    created: "2024-03-28T10:41:13.986262636Z"
+    dependencies:
+    - import-values:
+      - defaults
+      name: helmet
+      repository: https://charts.companyinfo.dev
+      version: 0.11.0
+    description: PiHole
+    digest: 32f88965badf82350ef1b5d749676c66ddb1b1f611211eeda3d04c407e200ecb
+    maintainers:
+    - email: scawtee@protonmail.com
+      name: scottdot
+    name: pihole
+    sources:
+    - https://github.com/scottdotau/home-charts
+    urls:
+    - https://github.com/scottdotau/home-charts/releases/download/pihole-0.0.8/pihole-0.0.8.tgz
+    version: 0.0.8
   - apiVersion: v3
     appVersion: 0.0.6
     created: "2024-03-16T04:39:12.219227128Z"
@@ -267,4 +328,4 @@ entries:
     urls:
     - https://github.com/scottdotau/home-charts/releases/download/pihole-0.0.0/pihole-0.0.0.tgz
     version: 0.0.0
-generated: "2024-03-16T04:39:12.219265009Z"
+generated: "2024-03-28T10:41:13.986327087Z"
