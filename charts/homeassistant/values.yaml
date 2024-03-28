@@ -9,4 +9,7 @@ ports:
 extraVolumes:
   - name: config
     persistentVolumeClaim:
-      claimName: homeassistant-pvc
+      claimName: homeassistant-config-claim
+extraVolumeMounts:
+  - name: config
+    mountPath: /config

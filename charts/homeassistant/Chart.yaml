@@ -1,8 +1,8 @@
 apiVersion: v3
 description: Home Assistant
 name: homeassistant
-version: 0.0.8
-appVersion: 0.0.8
+version: 0.0.9
+appVersion: 0.0.9
 sources:
   - 'https://github.com/scottdotau/home-charts'
 maintainers:
